@@ -1,0 +1,18 @@
+{
+  "name": "special-contract",
+  "version": "1.0.0",
+  "description": "An ERC20 contract with a special feature that deducts 10% of sender's balance when tokens are transferred",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.20.0"
+  },
+  "dependencies": {
+    "ethers": "^6.11.1"
+  }
+}
